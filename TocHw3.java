@@ -1,4 +1,4 @@
-
+ï»¿
 import org.json.*;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -18,15 +18,15 @@ public class TocHw3 {
 		for(int i=0;i<yy.length();i++)
 		{
 			JSONObject jo = yy.getJSONObject(i);
-			if(jo.getString("¶mÂí¥«°Ï").equals(argv[1]))
+			if(jo.getString("é„‰é®å¸‚å€").equals(argv[1]))
 			{
-				if(jo.getInt("¥æ©ö¦~¤ë")>year)
+				if(jo.getInt("äº¤æ˜“å¹´æœˆ")>year)
 				{
-					String add=jo.getString("¤g¦a°Ï¬q¦ì¸m©Î«Øª«°ÏªùµP");
+					String add=jo.getString("åœŸåœ°å€æ®µä½ç½®æˆ–å»ºç‰©å€é–€ç‰Œ");
 					if(add.contains(argv[2]))
 					{
 						cnt++;
-						total+=jo.getInt("Á`»ù¤¸");
+						total+=jo.getInt("ç¸½åƒ¹å…ƒ");
 					}
 				}
 			}
