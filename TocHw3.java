@@ -1,4 +1,9 @@
-﻿
+﻿//name : 彭勝賢
+//student_number : F74002078
+//首先我將網頁整個讀進<String> tmp 之後利用json的API枚舉每個Object
+//判斷這個Object的鄉鎮市區有沒有跟我的參數一樣,交易年月有沒有大於我輸入的年份,地址有沒有包含我輸入的路名
+//把那些匹配成功的Object的價錢都加起來,最後除數量,即是答案
+
 import org.json.*;
 import java.io.BufferedReader;
 import java.io.IOException;
