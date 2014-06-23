@@ -36,7 +36,10 @@ public class TocHw3 {
 				}
 			}
 		}
-		System.out.println(total/cnt);
+		if(cnt==0)
+			System.out.println("0");
+		else
+			System.out.println(total/cnt);
 		//fr.close();
 	}
 	private static String getUrlSource(String url) throws IOException {
